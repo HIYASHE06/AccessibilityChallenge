@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* Background will have this colour*/
 }
 
 .header {
@@ -15,7 +15,7 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+.header h1 { /*Header 1 will be an inline block*/
     display: inline-block;
     font-size: 48px;
 }
@@ -37,7 +37,7 @@ body {
     
 }
 
-.header div ul li {
+.header div ul li { /*The unordered list in teh header will be incline blocks*/
     display: inline-block;
     margin-left: 25px;
 }
